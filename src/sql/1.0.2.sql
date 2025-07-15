@@ -1,4 +1,4 @@
-CREATE TABLE `demo_module_v2` (
+CREATE TABLE IF NOT EXISTS `demo_module_v2` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)

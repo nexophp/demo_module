@@ -1,0 +1,1 @@
+<div>here is demo module  <?=lang('demo_module')?></div>

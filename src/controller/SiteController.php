@@ -6,6 +6,6 @@ class SiteController
 {
 	public function actionIndex()
 	{
-		return view('index');
+		 
 	}
 }

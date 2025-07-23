@@ -1,8 +1,12 @@
 <?php
 
 namespace modules\demo_module\controller;
-
-class SiteController
+/**
+* \core\AppController
+* \core\ApiController  
+* \core\AdminController
+*/
+class SiteController extends \core\AppController
 {
 	public function actionIndex()
 	{
